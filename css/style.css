@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to bottom right, #46045a, #000116);
     margin: 0;
+    height: 200vh;
 }
 .container {
     width: 100%;
@@ -52,7 +53,6 @@ img {
 }
 .logo-img {
     height: 130px;
-    /* margin: 20px auto; */
 }
 .nav-menu {
     margin: auto;
@@ -108,4 +108,20 @@ img {
 .projects {
     margin-top: 65vh;
     display: block;
+}
+.heading h3 {
+    text-align: center;
+    font-family: 'spartan';
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.project-section {
+    padding: 10px;
+}
+.project {
+    margin-top: 20px;
+}
+.proj_name {
+    text-align: center;
 }
