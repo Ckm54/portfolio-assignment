@@ -3,8 +3,6 @@ body{
     margin: 0;
 }
 .container {
-    margin: 0;
-    padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,10 +14,19 @@ body{
 }
 .wrapper-img {
     position: relative;
-    z-index: -1;
 }
 .wrapper-img-1{
     position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    /* width: 100%; */
+    height: 65vh;
+}
+.wrapper-img-2 {
+    height: 65vh;
+    position: relative;
     left: 0%;
     top: 0%;
     right: auto;
@@ -33,9 +40,9 @@ img {
 
 .navbar-container, .header, .projects {
     position: absolute;
-    left: 15%;
+    left: 10%;
     top: 0%;
-    right: 0%;
+    right: 10%;
     bottom: auto;
     display: flex;
     align-items: center;
@@ -49,10 +56,10 @@ img {
 }
 .nav-menu {
     margin: auto;
+    text-align: center;
 }
 .nav-menu a {
-    text-align: right;
-    margin-right: 30px;
+    margin-left: 50px;
     text-decoration: none;
     color: #fff;
 }
@@ -62,7 +69,7 @@ img {
     border-bottom: 2px solid #fff;
 }
 .header {
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 .name {
     padding-top: 15vh;
@@ -74,15 +81,29 @@ img {
     font-size: 25px;
     background-image: linear-gradient(60deg, #E21143, #faa11c);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 .avatar {
-    height: 40vh;
-    margin-top: 5vh;
-    z-index: -1;
+    height: 54vh;
+}
+.about {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(60deg, #E21143, #faa11c);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.about:hover {
+    background-image: linear-gradient(60deg, #df496c, #b48238);
+    color: #fff;
+}
+.center {
+    text-align: center;
+    margin-top: 50px;
 }
 .my-summary {
-    z-index: 1;
+    text-align: justify;
 }
 .projects {
     margin-top: 65vh;
