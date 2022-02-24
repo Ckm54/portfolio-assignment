@@ -16,7 +16,7 @@ body {
     text-decoration: none;
 }
 .max-width {
-    max-width: 1300px;
+    max-width: 90%;
     padding: 0 10px;
     margin: auto;
 }
@@ -152,7 +152,7 @@ section .title::before {
 section .title::after {
     position: absolute;
     bottom: -20px;
-    left: 7%;
+    left: 5.5%;
     padding: 5px;
     font-size: 20px;
     color: #4452FB;
@@ -194,6 +194,8 @@ section .title::after {
 .about .about-me .right .p-summary {
     color: #ed462f;
     font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 5px;
 }
 .about .about-me .right p {
     text-align: justify;
@@ -211,6 +213,9 @@ section .title::after {
 .about .about-me .right a:hover {
     color: #ed462f;
 }
+.about .about-me .right .txt-desc ul {
+    margin-left: 17px;
+}
 
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 1300px) {
@@ -224,12 +229,16 @@ section .title::after {
         height: 350px;
         width: 350px;
     }
+    section .title::after {
+        left: 10%;
+    }
 }
 
 @media (max-width: 991px) {
     .header .max-width {
         margin-left: 0 50px;
     }
+    
 }
 
 @media (max-width: 947px) {
