@@ -5,5 +5,9 @@ $(document).ready(function(){
         } else {
             $('.navbar').removeClass("sticky")
         }
+    });
+    $('.menu-btn').click(function(){
+        $('.navbar .nav-menu').toggleClass("active");
+        $('.menu-btn i').toggleClass('active');
     })
 })
