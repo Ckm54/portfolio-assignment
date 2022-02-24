@@ -1,83 +1,76 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
     background-image: linear-gradient(to bottom right, #46045a, #000116);
+}
+* {
     margin: 0;
-    height: 200vh;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-.container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.wrapper-img {
-    position: relative;
-}
-.wrapper-img-1{
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    /* width: 100%; */
-    height: 65vh;
-}
-.wrapper-img-2 {
-    height: 65vh;
-    position: relative;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-}
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-.navbar-container, .header, .projects {
-    position: absolute;
-    left: 10%;
-    top: 0%;
-    right: 10%;
-    bottom: auto;
+
+/* navbar styling */
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    padding: 15px 0;
+    background: #000116;
+}
+.navbar .max-width {
     display: flex;
     align-items: center;
-    background-color: transparent;
-    padding: 10px;
-    color: #ffffff;
+    justify-content: space-between;
 }
-.logo-img {
+.navbar .logo:hover {
+    transform: scale(1.05);
+}
+.logo img {
     height: 130px;
 }
-.nav-menu {
-    margin: auto;
-    text-align: center;
+.navbar .nav-menu li {
+    list-style: none;
+    display: inline-block;
 }
-.nav-menu a {
-    margin-left: 50px;
-    text-decoration: none;
+.navbar .nav-menu li a {
     color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
-.nav-menu a:hover {
-    color: rgb(220, 20, 60);
-    padding-bottom: 10px;
-    border-bottom: 2px solid #fff;
+.navbar .nav-menu li a:hover {
+    color: crimson;
 }
-.header {
-    margin-top: 10vh;
+.hide {
+    display: none;
+}
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+/* .header {
+    margin-top: 5px;
 }
 .name {
-    padding-top: 15vh;
+    padding-top: 10px;
     font-size: 60px;
     font-family: 'spartan';
     font-weight: 600;
 }
-.summary-text {
+.summary-text, .p-summary {
     font-size: 25px;
     background-image: linear-gradient(60deg, #E21143, #faa11c);
     -webkit-background-clip: text;
@@ -106,7 +99,7 @@ img {
     text-align: justify;
 }
 .projects {
-    margin-top: 65vh;
+    margin-top: 10px;
     display: block;
 }
 .heading h3 {
@@ -117,11 +110,104 @@ img {
     padding-top: 30px;
 }
 .project-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px;
 }
 .project {
-    margin-top: 20px;
+    margin: 10px 20px ;
+    width: calc(30% - 20px);
+}
+.project p {
+    text-align: justify;
+    padding: 20px 5px;
+}
+.project a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(60deg, #E21143, #faa11c);
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
 }
 .proj_name {
     text-align: center;
 }
+.icon-img {
+    float: right;
+    margin-left: -100px;
+    margin-top: -80px;
+    height: 350px;
+    width: auto;
+    -webkit-transform:rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+}
+.txt-desc {
+    font-size: 20px;
+}
+.txt-desc p {
+    text-align: justify;
+    word-spacing: 0.2em;
+    position: relative;
+}
+.collaborate {
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper-img {
+    position: relative;
+}
+.wrapper-img-1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    height: 65vh;
+}
+.wrapper-img-2 {
+    height: 65vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+} */
+
+
+
+
+
+
+
+/* img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+section {
+    position: relative;
+    top: 0;
+    bottom: auto;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #ffffff;
+} */
