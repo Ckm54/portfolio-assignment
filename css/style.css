@@ -5,6 +5,10 @@
 /* body {
     background-image: linear-gradient(to bottom right, #46045a, #000116);
 } */
+body {
+    background: #0B0C10;
+    color: #fff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +27,6 @@
     font-family: 'Ubuntu', sans-serif;
     width: 100%;
     z-index: 999;
-    position: fixed;
     padding: 15px 0;
 }
 .navbar .max-width {
@@ -49,13 +52,6 @@
     font-weight: 500;
     margin-left: 25px;
 }
-.navbar.sticky {
-    padding: 15px 0;
-    background: #1F2833;
-}
-.navbar.sticky .nav-menu li a:hover {
-    color: #45A29E;
-}
 .navbar .nav-menu li a:hover {
     color: #45A29E;
 }
@@ -74,10 +70,9 @@
     display: flex;
     color: #fff;
     font-family: 'Spartan', sans-serif;
-    background: url('../images/header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 60vh;
     min-height: 500px;
 }
 .header .max-width {
@@ -103,12 +98,31 @@
     margin: 5px 0;
 }
 .header .header-content .txt3 span {
-    color: #66FCF1;
+    color: #4452FB;
     font-weight: 600;
+}
+.header .header-content a {
+    display: inline-block;
+    color: #11cc9e;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+.header .header-content i {
+    margin-left: 20px;
+    color: #fff;
+}
+.header .header-content a:hover {
+    color: #66FCF1;
+    background: none;
 }
 
 
-
+/* #ed462f */
 
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 1300px) {
@@ -133,7 +147,7 @@
     }
     .navbar .nav-menu {
         position: fixed;
-        background: #45A29E;
+        background: #0B0C10;
         height: 100vh;
         width: 100%;
         left: -100%;
@@ -144,6 +158,50 @@
     }
     .navbar .nav-menu.active {
         left: 0;
+    }
+    .navbar .nav-menu li {
+        display: block;
+    }
+    .navbar .nav-menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .navbar .nav-menu li a:hover {
+        color: #45A29E;
+    }
+    .header .header-content .txt2 {
+        font-size: 65px;
+    }
+    .header .header-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width {
+        max-width: 800px;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .header .header-content .txt1 span {
+        font-size: 70px;
+    }
+    .header .header-content .txt1 span::after {
+        content: "\a";
+        white-space: pre;
+    }
+    .header .header-content .txt2 {
+        font-size: 30px;
+    }
+    .header .header-content .txt3 {
+        font-size: 25px;
+    }
+    .header .header-content a {
+        font-size: 20px;
     }
 }
 
