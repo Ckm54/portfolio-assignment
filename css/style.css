@@ -13,6 +13,9 @@ body {
     box-sizing: border-box;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 .max-width {
     max-width: 1300px;
     padding: 0 10px;
@@ -26,6 +29,8 @@ body {
     width: 100%;
     z-index: 999;
     padding: 15px 0;
+    top: 0;
+    transition: top 0.3s;
 }
 .navbar .max-width {
     display: flex;
@@ -114,6 +119,29 @@ body {
 .header .header-content a:hover {
     color: #66FCF1;
     background: none;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: transparent;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #4452FB;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* common styles */
@@ -564,107 +592,3 @@ footer span a:hover {
         left: 16%;
     }
 }
-
-/*
-.project-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-.project {
-    margin: 10px 20px ;
-    width: calc(30% - 20px);
-}
-.project p {
-    text-align: justify;
-    padding: 20px 5px;
-}
-.project a {
-    text-decoration: none;
-    color: #fff;
-    background-image: linear-gradient(60deg, #E21143, #faa11c);
-    padding: 10px 20px;
-    border-radius: 5px;
-    float: right;
-}
-.proj_name {
-    text-align: center;
-}
-.icon-img {
-    float: right;
-    margin-left: -100px;
-    margin-top: -80px;
-    height: 350px;
-    width: auto;
-    -webkit-transform:rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: relative;
-}
-.txt-desc {
-    font-size: 20px;
-}
-.txt-desc p {
-    text-align: justify;
-    word-spacing: 0.2em;
-    position: relative;
-}
-.collaborate {
-    width: 100%;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-/* .wrapper-img {
-    position: relative;
-}
-.wrapper-img-1{
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-    height: 65vh;
-}
-.wrapper-img-2 {
-    height: 65vh;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
-} */
-
-
-
-
-
-
-
-/* img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-section {
-    position: relative;
-    top: 0;
-    bottom: auto;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    color: #ffffff;
-} */
