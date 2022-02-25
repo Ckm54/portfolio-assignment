@@ -455,7 +455,16 @@ footer span a:hover {
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 1300px) {
     .header .max-width {
-        margin-left: 0px;
+        margin-left: 10px;
+    }
+    body {
+        margin: 0 20px;
+    }
+    .header .header-content .txt3 {
+        font-size: 32px;
+    }
+    .header .header-content a {
+        padding-left: 0;
     }
 }
 
@@ -471,7 +480,7 @@ footer span a:hover {
 
 @media (max-width: 991px) {
     .header .max-width {
-        margin-left: 0 50px;
+        margin-left: 0 30px;
     }
     
 }
@@ -537,17 +546,30 @@ footer span a:hover {
     .about .about-me .right {
         flex: 100%;
     }
+    .projects .my-projects .my-project {
+        margin-bottom: 30px;
+    }
     .projects .my-projects .column {
         width: 100%;
+        padding: 0 10px;
+    }
+    .projects .my-projects .column p,
+    .about .about-me .txt-desc p,
+    .about .about-me .right .txt-desc a {
+        font-size: 18px;
     }
     .projects .my-projects .left {
         justify-content: center;
         margin: 0 auto 60px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .projects .my-projects .right {
         flex: 100%;
-        margin-top: 20px;
+        margin-top: 0;
+    }
+    .projects .my-projects .header-text {
+        font-size: 30px;
+        text-align: left;
     }
     .projects .my-projects .my-project:nth-child(odd) .left {
         width: 100%;
@@ -566,6 +588,10 @@ footer span a:hover {
         width: 100%;
         padding-left: 10px;
     }
+    .contact .contact-content p {
+        font-size: 23px;
+        width: 100%;
+    }
     .contact .contact-content .icons {
         display: inline-block;
         margin: 20px;
@@ -575,30 +601,58 @@ footer span a:hover {
         margin-bottom: 5px;
         padding-bottom: 10px;
     }
+    .contact .contact-content .row i {
+        font-size: 16px;
+    }
+    .contact .contact-content .row .info {
+        font-size: 16px;
+        color: #66FCF1;
+    }
+    .contact .contact-content .text {
+        font-size: 20px;
+    }
+    .about .about-me .right .txt-desc ul {
+        margin-left: 17px;
+        font-size: 18px;
+    }
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+    section .title::after {
+        left: 29%;
+    }
 
 }
 
 @media (max-width: 740px) {
     .max-width {
-        padding: 0 23px;
+        padding: 0 5px;
     }
     .header .header-content .txt1 span {
-        font-size: 70px;
+        font-size: 60px;
     }
     .header .header-content .txt1 span::after {
         content: "\a";
         white-space: pre;
     }
     .header .header-content .txt2 {
-        font-size: 30px;
-    }
-    .header .header-content .txt3 {
         font-size: 25px;
     }
+    .header .header-content .txt3 {
+        font-size: 22px;
+    }
     .header .header-content a {
-        font-size: 20px;
+        font-size: 18px;
+        padding-left: 0;
     }
-    section .title::after {
-        left: 16%;
+    .projects .my-projects .column p,
+    .about .about-me .txt-desc p,
+    .about .about-me .right .txt-desc a {
+        font-size: 16px;
     }
+    .projects .my-projects .header-text {
+        font-size: 25px;
+    }
+
 }
