@@ -42,6 +42,10 @@
 
 *TYPED.js - javascript library to load and play the typing animation
 
+## Live Link
+You can preview the live working version here
+![alt text](https://ckm54.github.io/portfolio-assignment/ "My Portfolio Site")
+
 ## Reference
 * Materialize CSS
 
