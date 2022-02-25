@@ -222,6 +222,7 @@ h4 {
 }
 .about .about-me .right p {
     text-align: justify;
+    font-size: 20px;
 }
 .about .about-me .right a {
     display: inline-block;
@@ -246,6 +247,7 @@ h4 {
 }
 .about .about-me .right .txt-desc ul {
     margin-left: 17px;
+    font-size: 20px;
 }
 
 /* projects section styling */
@@ -290,10 +292,12 @@ h4 {
     margin-left: 20px;
     transition: color 0.3s ease;
 }
-.my-projects .my-project .proj-name {
-    font-size: 25px;
+.my-projects .my-project h3 {
+    font-size: 30px;
 }
-
+.my-projects .my-project h5 {
+    font-size: 20px;
+}
 .projects .my-projects .my-project a:hover {
     color: #11cc9e;
 }
@@ -301,31 +305,36 @@ h4 {
     transition: all 0.3s ease;
 }
 
-.my-projects .proj1 .proj-name {
+.my-projects .proj1 .proj-name,
+.my-projects .proj1 p span {
     color: #f49831;
 }
 .projects .my-projects .proj1 a {
     color: #f49831;
 }
-.my-projects .proj2 .proj-name {
+.my-projects .proj2 .proj-name,
+.my-projects .proj2 p span {
     color: #b953ff;
 }
 .projects .my-projects .proj2 a {
     color: #b953ff;
 }
-.my-projects .proj3 .proj-name {
+.my-projects .proj3 .proj-name,
+.my-projects .proj3 p span {
     color: #3a60fb;
 }
 .projects .my-projects .proj3 a {
     color: #3a60fb;
 }
-.my-projects .proj4 .proj-name {
+.my-projects .proj4 .proj-name,
+.my-projects .proj4 p span {
     color: #53b049;
 }
 .projects .my-projects .proj4 a {
     color: #53b049;
 }
-.my-projects .proj5 .proj-name {
+.my-projects .proj5 .proj-name,
+.my-projects .proj5 p span {
     color: #ed462f;
 }
 .projects .my-projects .proj5 a {
@@ -334,7 +343,7 @@ h4 {
 
 /* contact section styling */
 .contact .contact-content .text {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 5px;
