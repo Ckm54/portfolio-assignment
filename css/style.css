@@ -237,10 +237,6 @@ h4 {
 .projects {
     margin-top: 40px;
 }
-.my-project .proj-name {
-    font-size: 25px;
-    color: #b953ff;
-}
 .projects .my-projects p {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -248,12 +244,23 @@ h4 {
     line-height: 33px;
     text-align: justify;
 }
-.projects .my-projects .proj1 .left {
+.projects .my-projects .my-project {
+    margin-bottom: 30px;
+}
+.projects .my-projects .my-project:nth-child(odd) .left {
     width: 45%;
     padding-right: 10px;
 }
-.projects .my-projects .proj1 .right {
+.projects .my-projects .my-project:nth-child(odd) .right {
     width: 55%;
+    padding-left: 10px;
+}
+.projects .my-projects .my-project:nth-child(even) .left {
+    width: 55%;
+    padding-right: 10px;
+}
+.projects .my-projects .my-project:nth-child(even) .right {
+    width: 45%;
     padding-left: 10px;
 }
 .projects .my-projects .header-text {
@@ -268,11 +275,45 @@ h4 {
     margin-left: 20px;
     transition: color 0.3s ease;
 }
-.projects .my-projects .proj1 a {
-    color: #b953ff;
+.my-projects .my-project .proj-name {
+    font-size: 25px;
+}
+
+.projects .my-projects .my-project a:hover {
+    color: #11cc9e;
+}
+.projects .my-projects .my-project a {
     transition: all 0.3s ease;
 }
-.projects .my-projects .proj1 a:hover {
+
+.my-projects .proj1 .proj-name {
+    color: #f49831;
+}
+.projects .my-projects .proj1 a {
+    color: #f49831;
+}
+.my-projects .proj2 .proj-name {
+    color: #b953ff;
+}
+.projects .my-projects .proj2 a {
+    color: #b953ff;
+}
+.my-projects .proj3 .proj-name {
+    color: #3a60fb;
+}
+.projects .my-projects .proj3 a {
+    color: #3a60fb;
+}
+.my-projects .proj4 .proj-name {
+    color: #53b049;
+}
+.projects .my-projects .proj4 a {
+    color: #53b049;
+}
+.my-projects .proj5 .proj-name {
+    color: #ed462f;
+}
+.projects .my-projects .proj5 a {
     color: #ed462f;
 }
 
