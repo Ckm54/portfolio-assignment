@@ -574,19 +574,22 @@ footer span a:hover {
     .projects .my-projects .my-project:nth-child(odd) .left {
         width: 100%;
         padding-right: 10px;
+        order: 2;
     }
     .projects .my-projects .my-project:nth-child(odd) .right {
         width: 100%;
         padding-left: 10px;
+        order: 1;
     }
     .projects .my-projects .my-project:nth-child(even) .left {
         width: 100%;
         padding-right: 10px;
-        order: 2;
+        order: 1;
     }
     .projects .my-projects .my-project:nth-child(even) .right {
         width: 100%;
         padding-left: 10px;
+        order: 2;
     }
     .contact .contact-content p {
         font-size: 23px;
