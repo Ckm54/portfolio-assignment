@@ -73,10 +73,11 @@ html {
     display: flex;
     color: #fff;
     font-family: 'Spartan', sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 60vh;
     min-height: 500px;
+}
+.header .max-width {
+    width: 100%;
 }
 .header .header-content .txt1 {
     font-size: 30px;
