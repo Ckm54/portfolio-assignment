@@ -44,7 +44,7 @@
 
 ## Live Link
 You can preview the live working version here
-![alt text](https://ckm54.github.io/portfolio-assignment/ "My Portfolio Site")
+![My Portfolio site](https://ckm54.github.io/portfolio-assignment/)
 
 ## Reference
 * Materialize CSS
