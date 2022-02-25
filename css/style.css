@@ -399,6 +399,35 @@ h4 {
     .about .about-me .right {
         flex: 100%;
     }
+    .projects .my-projects .column {
+        width: 100%;
+    }
+    .projects .my-projects .left {
+        justify-content: center;
+        margin: 0 auto 60px;
+        margin-top: 20px;
+    }
+    .projects .my-projects .right {
+        flex: 100%;
+        margin-top: 20px;
+    }
+    .projects .my-projects .my-project:nth-child(odd) .left {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .projects .my-projects .my-project:nth-child(odd) .right {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .projects .my-projects .my-project:nth-child(even) .left {
+        width: 100%;
+        padding-right: 10px;
+        order: 2;
+    }
+    .projects .my-projects .my-project:nth-child(even) .right {
+        width: 100%;
+        padding-left: 10px;
+    }
 
 }
 
