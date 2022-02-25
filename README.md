@@ -5,6 +5,7 @@
 ![Alt text](./images/pimg.png?raw=true "Title")
 ## Table of Content
 
++ [My Portfolio Landing Page](#MyPortfolioLandingPage)
 + [Description](#Description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#Technology-used)
@@ -41,6 +42,10 @@
 
 *TYPED.js - javascript library to load and play the typing animation
 
+## Live Link
+You can preview the live working version here
+[My Portfolio site](https://ckm54.github.io/portfolio-assignment/)
+
 ## Reference
 * Materialize CSS
 
@@ -68,7 +73,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#Description)
+[Go Back to the top](#MyPortfolioLandingPage)
 
 ## Authors Info
 
@@ -76,4 +81,4 @@ Slack Profile - [Collins Kiplangat](https://app.slack.com/client/T0101L740P4/D02
 
 LinkedIn - [Collins Kiplangat](https://www.linkedin.com/in/collins-kiplangat-a1bab715a/)
 
-[Go Back to the top](#JavascriptQuizApp)
+[Go Back to the top](#MyPortfolioLandingPage)
