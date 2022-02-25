@@ -1,10 +1,11 @@
-+ [My Portfolio Landing Page](#MyPortfolioLandingPage)
+# My Portfolio Landing Page
 
 ##### By Collins_54
 ### It creates a portfolio landing page using html css and javascript.
 ![Alt text](./images/pimg.png?raw=true "Title")
 ## Table of Content
 
++ [My Portfolio Landing Page](#MyPortfolioLandingPage)
 + [Description](#Description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#Technology-used)
