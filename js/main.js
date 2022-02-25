@@ -24,4 +24,11 @@ $(document).ready(function(){
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
     });
+    // add typing animation to header 
+    var typed = new Typed('.type', {
+        strings: ["Web Development", "Blogging", "Design", "Presentation"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+    })
 })
