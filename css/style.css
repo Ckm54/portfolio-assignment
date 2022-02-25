@@ -117,7 +117,7 @@ body {
 }
 
 /* common styles */
-.about, .projects {
+.about, .projects, .contact {
     font-family: 'Poppins', sans-serif;
 }
 .about .about-me,
@@ -184,20 +184,6 @@ h4 {
 }
 .about .about-me .right {
     width: 55%;
-}
-.about .about-me .right img {
-    float: right;
-    margin-left: -100px;
-    margin-top: -80px;
-    height: 350px;
-    width: auto;
-    -webkit-transform:rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(-45deg);
-    position: relative;
-    z-index: -1;
 }
 .about .about-me .right .p-summary {
     color: #ed462f;
@@ -317,6 +303,90 @@ h4 {
     color: #ed462f;
 }
 
+/* contact section styling */
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.contact .contact-content .icons {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact-content .row .info a {
+    color: #66FCF1;
+}
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: #66FCF1;
+}
+.contact .contact-content .row .info .head {
+    font-weight: 500;
+}
+.contact .contact-content .row .info .sub-title {
+    color: #11cc9e;
+}
+.contact .contact-content form .fields {
+    display: flex;
+}
+.contact .contact-content form .field,
+.contact .contact-content form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .contact-content form .textarea {
+    height: 80px;
+    width: 100%;
+}
+.contact .contact-content form .name {
+    margin-right: 10px;
+}
+.contact .contact-content form .email {
+    margin-left: 10px;
+}
+.contact .contact-content form .field input,
+.contact .contact-content form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: hsla(0, 0%, 100%, .07);
+}
+.contact .contact-content form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+.contact .contact-content form .button {
+    height: 47px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+.contact .contact-content form .button button {
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .contact-content form .button button i {
+    margin-left: 10px;
+}
+.contact .contact-content form .button button:hover {
+    color: #66FCF1;
+}
+
 
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 1300px) {
@@ -343,6 +413,9 @@ h4 {
 }
 
 @media (max-width: 947px) {
+    body {
+        margin: 0 20px;
+    }
     .menu-btn {
         display: block;
         z-index: 999;
@@ -363,6 +436,7 @@ h4 {
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
+        z-index: 999;
     }
     .navbar .nav-menu.active {
         left: 0;
@@ -427,6 +501,15 @@ h4 {
     .projects .my-projects .my-project:nth-child(even) .right {
         width: 100%;
         padding-left: 10px;
+    }
+    .contact .contact-content .icons {
+        display: inline-block;
+        margin: 20px;
+        font-size: 20px;
+    }
+    .contact .contact-content .row {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
     }
 
 }
