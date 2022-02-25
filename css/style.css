@@ -117,7 +117,7 @@ body {
 }
 
 /* common styles */
-.about, .projects, .contact {
+.about, .projects, .contact, footer {
     font-family: 'Poppins', sans-serif;
 }
 .about .about-me,
@@ -148,7 +148,7 @@ section .title::before {
 section .title::after {
     position: absolute;
     bottom: -20px;
-    left: 5.5%;
+    left: 7%;
     padding: 5px;
     font-size: 20px;
     color: #4452FB;
@@ -305,10 +305,18 @@ h4 {
 
 /* contact section styling */
 .contact .contact-content .text {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+.contact .contact-content p {
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 400;
+    padding-bottom: 25px;
 }
 .contact .contact-content .icons {
     display: flex;
@@ -359,6 +367,7 @@ h4 {
     font-size: 17px;
     font-family: 'Source Sans Pro', sans-serif;
     background: hsla(0, 0%, 100%, .07);
+    color: #fff;
 }
 .contact .contact-content form .textarea textarea {
     padding-top: 10px;
@@ -385,6 +394,23 @@ h4 {
 }
 .contact .contact-content form .button button:hover {
     color: #66FCF1;
+}
+
+/* footer styling */
+footer {
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer span a {
+    color: #66FCF1;
+
+}
+footer span a:hover {
+    text-decoration: underline;
+    color: #53b049;
 }
 
 
