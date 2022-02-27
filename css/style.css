@@ -45,6 +45,7 @@ html {
 .logo img {
     height: 100px;
     object-fit: cover;
+    float: left;
 }
 .navbar .nav-menu li {
     list-style: none;
@@ -538,6 +539,9 @@ footer span a:hover {
     .max-width {
         max-width: 800px;
     }
+    .about {
+        margin-top: 160px;
+    }
     .about .about-me .column {
         width: 100%;
     }
@@ -624,9 +628,6 @@ footer span a:hover {
     footer {
         padding: 10px;
         font-size: 12px;
-    }
-    section .title::after {
-        left: 29%;
     }
 
 }
